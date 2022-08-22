@@ -460,6 +460,10 @@ body{
     right: unset;
     left: 2rem;
   }
+
+  .project-item{
+    padding: 2rem;
+  }
 }
 
 @media screen and (min-width: 1000px){
