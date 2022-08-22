@@ -61,10 +61,8 @@ body{
 }
 
 .lang-icon{
-  
   height: 100%;
   display: grid;
-  display: none;
   place-items: center;
 }
 
@@ -457,12 +455,6 @@ body{
 
   .links-container{
     flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 400px){
-  .lang-icon{
-    display: grid;
   }
 }
 
