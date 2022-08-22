@@ -1,0 +1,72 @@
+export const langdata = {
+  'languages': {
+    'es': {
+      'strings': {
+        '001': 'Hola, Creo que ya leiste mi nombre. Soy un Frontend Software Developer de Chile. Me gusta crear interfaces de usuario limpias y atractivas, tomando un desafio en cada oportunidad.',
+        '002': 'Actualmente estoy buscando una oportunidad de trasbajo para mostrar mis habilidades, si quieres conversar un poco, dejame un <a href="" target="_blank">mensaje!</a>',
+        '003': 'Puedes descargar <a href="">mi CV desde aqui.</a>',
+        '004': '01 <span class="decoration"></span> Acerca',
+        '005': '02 <span class="decoration"></span> Proyectos',
+        '006': '03 <span class="decoration"></span> Habilidades',
+        '007': 'ACERCA DE MI',
+        '008': 'Mi nombre es Miguel Alarcon. Mi camino en la programacion empezo en 2018, cuando por primera vez entendi que era el codigo. Despues de algunos años, descubri el desarrollo web y me di cuenta que podia combinarlo con mis habilidades de diseño y pensamiento logico para hacer que cosas impresionantes cobraran vida. Ahi fue cuando supe que esto era para mi',
+        '009': 'A dia de hoy, despues de incontables videos, cientos de visitas a StackOverflow, un par de <a href="">certificaciones de freeCodeCamp</a> y un  <a href="" target="_blank">bootcamp de programacion</a>, He aprendido mucho sobre teconologias web. Mi enfoque es Frontend, sin duda, pero mi objetivo es ser un desarrollador integral, capaz de resolver cualquier reto. Es por eso que estoy constantemente aprendiendo nuevas cosas y entendiendo todo a un nivel profundo.',
+        '010': 'Por ahora estoy en busca de una oportunidad para seguir desarrollandome en un ambiente profesional, con una cultura llena de personas increibles donde pueda contribuir con mi conocimiento a construir algo de lo que me pueda sentir orgulloso.',
+        '011': 'Porque trabajarias conmigo:',
+        '012': 'Habilidades Comunicativas',
+        '013': 'Pensamiento Colectivo',
+        '014': 'Enfoque en el Detalle',
+        '015': 'Espiritu Solidario',
+        '016': 'Aprendiz Rapido',
+        '017': 'PROYECTOS',
+        '018': "01 EN VIVO",
+        '019': "02 CODIGO FUENTE",
+        '020': 'Juego multijugador de dibujo basado en turnos. Hecho con JavaScript y HTML5 Canvas como una SPA (single page application).',
+        '021': "01 EN VIVO",
+        '022': "02 CODIGO FUENTE",
+        '023': "Aplicacion para el seguimiento de calorias y macronutrientes usando llamadas REST API a la base de datos de USDA y Animaciones SVG.",
+        '024': "01 EN VIVO",
+        '025': "02 CODIGO FUENTE",
+        '026': "section de commentarios animada",
+        '027': 'Reto de <a href="">frontendmentor.io</a> llevado al siguiente nivel. Layout responsivo con animaciones limpias en cada interaccion utilizando el metodo SPLIT.',
+        '028': 'HABILIDADES',
+        '029': 'Aun cuando me gusta pensar en mi mismo como alguien que resuelve problemas mas que un SSD (antes que un HDD) lleno de keywords, aqui estan algunas de las tecnologias con las que soy productivo:',
+        '030': 'Y aqui algunas tecnologias que he usado: '
+      }
+    },
+    'en': {
+      'strings': {
+        '001': 'Hi, I think you already read my name. Im a Frontend Software Developer from Chile. I like to build clean and nice looking interfaces, challenging myself every time.',
+        '002': `Currently I'm looking for a job opportunity to showcase my skills, if you wanna have a chat, leave me a <a href="" target="_blank">message!</a>`,
+        '003': 'You can get <a href="">my CV right here.</a>',
+        '004': '01 <span class="decoration"></span> About',
+        '005': '02 <span class="decoration"></span> Projects',
+        '006': '03 <span class="decoration"></span> Skills',
+        '007': 'ABOUT ME',
+        '008': "My name is Miguel Alarcon. My programming journey began back in 2018 when I first understood what code was. After a few years I discovered web development and realized I could mix it up with my design skills and logic thinking to make impressive things come to life. That's when I knew this was for me.",
+        '009': "Fast forward to today, after countless videos, hundreds StackOverflow visits, a few <a href=\"\">freeCodeCamp certifications</a> and a <a href=\"\" target=\"_blank\">coding bootcamp</a>, I have learned a lot about web technologies. My focus is Frontend, no doubt about it, but my goal is to be a well rounded developer, capable of solving any challenge. Thats why Im always learning new things and trying to understand everything at a deep level.",
+        '010': "As for now Im looking for an opportunity to keep improving in a professional environment and meet a culture of amazing people where I'm able to contribute with my knowledge to build something im proud of.",
+        '011': "Why would you work with me:",
+        "012": "Communication Skills",
+        "013": "Collective Thinking",
+        "014": "Detail Focused",
+        "015": "Caring Spirit",
+        "016": "Fast Learner",
+        '017': "PROJECTS",
+        '018': "01 LIVE VERSION",
+        '019': "02 SOURCE CODE",
+        '020': "A multiplayer turn based drawing game made with JavaScript and HTML5 Canvas as a single page application.",
+        '021': "01 LIVE VERSION",
+        '022': "02 SOURCE CODE",
+        '023': "Calorie and macronutrients tracking app using REST API calls to the USDA database and SVG animations.",
+        '024': "01 LIVE VERSION",
+        '025': "02 SOURCE CODE",
+        '026': "animated comment section",
+        '027': "Challenge from  taken to the next level. Responsive layout with clean animations in each interaction applying the SPLIT method.",
+        '028': 'SKILLS',
+        '029': "Even though I like to think of myself as a problem solver more than a SSD (rather than a HDD) full of keywords, here are some of the techonologies I'm proeficient with:",
+        '030': "Here are some others technologies I have used:"
+      }
+    }
+  }
+}
