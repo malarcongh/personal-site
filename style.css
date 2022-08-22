@@ -46,7 +46,6 @@ body{
   z-index: 9999;
   position: absolute;
   top: 30px;
-  right: min(50px, 2%);
   right: clamp(2rem, 2%, 50px);
   background-color: #202022;
   outline: 1px solid whitesmoke;
@@ -450,11 +449,16 @@ body{
 
 @media screen and (max-width: 460px){
   .intro-container{
-    margin-top: 4.5rem;
+    margin-top: 5rem;
   }
 
   .links-container{
     flex-wrap: wrap;
+  }
+
+  .lang-btn{
+    right: unset;
+    left: 2rem;
   }
 }
 
