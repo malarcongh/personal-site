@@ -4,7 +4,7 @@
   --main-background-color: #151515;
   --secondary-background-color: #202022;
   font-size: 14px;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 *{
@@ -222,16 +222,8 @@ body{
 }
 
 .content-item{
-}
-
-.about-content > *:last-child{
-  padding-bottom: 4rem;
-}
-
-.projects-wrapper{
   margin-bottom: 4rem;
 }
-
 
 .content-item-title{
   font-weight: 600;
@@ -409,7 +401,7 @@ body{
 }
 
 .skills-content{
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 .skills-content p:first-of-type{

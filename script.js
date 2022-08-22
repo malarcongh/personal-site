@@ -68,5 +68,26 @@ function removeFocus(prevActiveProject, wrapperStillActive){
     projectPreview.classList.remove('active');
 }
 
+window.addEventListener('animationend', function(e){
+  console.log(e);
+});
+
+
+const contentItems = document.querySelectorAll('.content-item');
+const navLinks = document.querySelectorAll('.nav-list-item');
+
+const observer = new IntersectionObserver(entries => {
+  const intersectingEntry = entries.find(entry => entry.isIntersecting);
+  if(!intersectingEntry) return;
+  const id = intersectingEntry.target.id;
+  navLinks.forEach(link => link.classList.remove('item-active'));
+  document.querySelector(`.nav-${id}`).classList.add('item-active');
+
+}, {
+  threshold: 1
+})
+
+contentItems.forEach(item => observer.observe(item));
+
 
 
