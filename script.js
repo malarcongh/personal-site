@@ -15,13 +15,9 @@ langBtn.addEventListener('click', function(){
   langBtn.querySelector('.lang-text').textContent = lang;
 
   const textElements = document.querySelectorAll('[data-key]');
-  console.log(textElements);
 
   textElements.forEach(el => {
-    // console.log(langdata.languages[lang].strings[el.dataset.key]);
     const text = langdata.languages[lang].strings[el.dataset.key];
-    // console.log(text);
-    console.log(el.childNodes);
     el.innerHTML = text;
   })
 })
@@ -53,8 +49,6 @@ window.addEventListener('click', function({target}){
 
     if(!isClosing) projectItem.classList.toggle('focus');
     projectPreview.classList.toggle('active');
-    
-    
 
     return;
   }
@@ -63,7 +57,6 @@ window.addEventListener('click', function({target}){
     removeFocus(prevActiveProject, false);
     prevActiveProject = null;
   }
-
 })
 
 function removeFocus(prevActiveProject, wrapperStillActive){
