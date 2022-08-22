@@ -450,7 +450,7 @@ body{
   fill: var(--secondary-font-color);
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 455px){
   .intro-container{
     margin-top: 4.5rem;
   }
