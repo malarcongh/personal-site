@@ -4,7 +4,7 @@ export const langdata = {
       'strings': {
         '001': 'Hola, Creo que ya leiste mi nombre. Soy un Frontend Software Developer de Chile. Me gusta crear interfaces de usuario limpias y atractivas, tomando un desafio en cada oportunidad.',
         '002': 'Actualmente estoy buscando una oportunidad de trasbajo para mostrar mis habilidades, si quieres conversar un poco, dejame un <a href="" target="_blank">mensaje!</a>',
-        '003': 'Puedes descargar <a href="">mi CV desde aqui.</a>',
+        '003': 'Puedes descargar <a a href="./CV/Miguel Alarcon CV - es.pdf" target="_blank">mi CV desde aqui.</a>',
         '004': '01 <span class="decoration"></span> Acerca',
         '005': '02 <span class="decoration"></span> Proyectos',
         '006': '03 <span class="decoration"></span> Habilidades',
@@ -28,7 +28,7 @@ export const langdata = {
         '024': "01 EN VIVO",
         '025': "02 CODIGO FUENTE",
         '026': "section de commentarios animada",
-        '027': 'Reto de <a href="">frontendmentor.io</a> llevado al siguiente nivel. Layout responsivo con animaciones limpias en cada interaccion utilizando el metodo SPLIT.',
+        '027': 'Reto de <a href="">frontendmentor.io</a> llevado al siguiente nivel. Layout responsivo con animaciones limpias en cada interaccion utilizando el metodo FLIP.',
         '028': 'HABILIDADES',
         '029': 'Aun cuando me gusta pensar en mi mismo como alguien que resuelve problemas mas que un SSD (antes que un HDD) lleno de keywords, aqui estan algunas de las tecnologias con las que soy productivo:',
         '030': 'Y aqui algunas tecnologias que he usado: '
@@ -38,7 +38,7 @@ export const langdata = {
       'strings': {
         '001': 'Hi, I think you already read my name. Im a Frontend Software Developer from Chile. I like to build clean and nice looking interfaces, challenging myself every time.',
         '002': `Currently I'm looking for a job opportunity to showcase my skills, if you wanna have a chat, leave me a <a href="" target="_blank">message!</a>`,
-        '003': 'You can get <a href="">my CV right here.</a>',
+        '003': 'You can get <a a href="./CV/Miguel Alarcon CV - en.pdf" target="_blank">my CV right here.</a>',
         '004': '01 <span class="decoration"></span> About',
         '005': '02 <span class="decoration"></span> Projects',
         '006': '03 <span class="decoration"></span> Skills',
@@ -62,7 +62,7 @@ export const langdata = {
         '024': "01 LIVE VERSION",
         '025': "02 SOURCE CODE",
         '026': "animated comment section",
-        '027': "Challenge from  taken to the next level. Responsive layout with clean animations in each interaction applying the SPLIT method.",
+        '027': "Challenge from  taken to the next level. Responsive layout with clean animations in each interaction applying the FLIP method.",
         '028': 'SKILLS',
         '029': "Even though I like to think of myself as a problem solver more than a SSD (rather than a HDD) full of keywords, here are some of the techonologies I'm proeficient with:",
         '030': "Here are some others technologies I have used:"
