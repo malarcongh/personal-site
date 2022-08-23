@@ -5,9 +5,7 @@ let prevActiveProject;
 let transitioning = false;
 
 const langBtn = document.querySelector('.lang-btn');
-
 const projectsWrappwer = document.querySelector('.projects-wrapper');
-const projectItems = document.querySelectorAll('.projects-content-item');
 
 langBtn.addEventListener('click', function(){
   const lang = langBtn.dataset.lang === 'en' ? 'es': 'en'; 
@@ -23,6 +21,10 @@ langBtn.addEventListener('click', function(){
 })
 
 window.addEventListener('click', function({target}){
+
+  if(target.closest('.gmail-link')){
+    
+  }
 
   const projectItem  = target.closest('.project-item');
 
@@ -68,9 +70,7 @@ function removeFocus(prevActiveProject, wrapperStillActive){
     projectPreview.classList.remove('active');
 }
 
-window.addEventListener('animationend', function(e){
-  console.log(e);
-});
+
 
 
 const contentItems = document.querySelectorAll('.content-item');
