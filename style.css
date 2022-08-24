@@ -246,6 +246,12 @@ body{
   filter: grayscale(1);
 }
 
+.avatar-container img{
+  /* transform: translate(-30%, -25%); */
+  /* width: 200%;
+  height: 200%; */
+}
+
 
 
 
