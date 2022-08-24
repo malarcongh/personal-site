@@ -192,33 +192,37 @@ body{
 }
 
 .gmail-link{
-  cursor: default;
-}
-
-.gmail-link:hover .gmail-text-container .placeholder{
-  transition: transform .3s;
-  transform: translateX(-100%);
-}
-
-.gmail-link:hover .gmail-text-container .email{
-  transform: translateX(0%);
+  cursor: pointer;
 }
 
 .gmail-text-container{
   position: relative;
   overflow: hidden;
   display: flex;
+  width: fit-content;
+  transition: width .6s .3s;
 }
 
 .gmail-text-container .placeholder{
-  position: absolute;
   transform: translate(0);
   transition: transform .3s 1s;
 }
 
+.gmail-text-container .placeholder.hidden{
+  transition: transform .3s;
+  transform: translateX(-100%);
+}
+
+
 .gmail-text-container .email{
+  position: absolute;
   transform: translateX(-100%);
   transition: transform .6s .3s;
+}
+
+
+.gmail-text-container .email.showing{
+  transform: translateX(0%);
 }
 
 

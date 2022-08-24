@@ -3,9 +3,10 @@ import {langdata} from './language.js';
 
 let prevActiveProject;
 let transitioning = false;
-
+let timeoutID;
 const langBtn = document.querySelector('.lang-btn');
 const projectsWrappwer = document.querySelector('.projects-wrapper');
+
 
 langBtn.addEventListener('click', function(){
   const lang = langBtn.dataset.lang === 'en' ? 'es': 'en'; 
@@ -23,7 +24,45 @@ langBtn.addEventListener('click', function(){
 window.addEventListener('click', function({target}){
 
   if(target.closest('.gmail-link')){
-    
+
+    const textContainer = target.closest('.gmail-link').querySelector('.gmail-text-container');
+    textContainer.classList.toggle('emailShowing');
+    const emailIsShowing = textContainer.classList.contains('emailShowing');
+
+    const placeholder = textContainer.querySelector('.placeholder');
+    const email = textContainer.querySelector('.email');
+    const placeholderWidth = placeholder.offsetWidth;
+    const emailWidth = email.offsetWidth;
+
+    if(timeoutID) clearTimeout(timeoutID);
+
+    if(emailIsShowing){
+      timeoutID = setTimeout(function(){
+        console.log('xxd');
+        textContainer.style.width = `${emailWidth}px`;
+        textContainer.classList.remove('emailShowing');
+        placeholder.classList.remove('hidden');
+        email.classList.remove('showing');
+      }, 4000)
+    }
+
+    const startWidth = emailIsShowing ? placeholderWidth: emailWidth;
+    const finalWidth = emailIsShowing ? emailWidth: placeholderWidth;
+
+    console.log({
+      startWidth,
+      finalWidth
+    });
+
+    textContainer.style.width = `${startWidth}px`;
+
+    requestAnimationFrame(function(){
+      textContainer.style.width = `${finalWidth}px`;
+      email.classList.toggle('showing');
+      placeholder.classList.toggle('hidden');
+    })
+
+    return;
   }
 
   const projectItem  = target.closest('.project-item');

@@ -3,7 +3,7 @@ export const langdata = {
     'es': {
       'strings': {
         '001': 'Hola, Creo que ya leiste mi nombre. Soy un Frontend Software Developer de Chile. Me gusta crear interfaces de usuario limpias y atractivas, tomando un desafio en cada oportunidad.',
-        '002': 'Actualmente estoy buscando una oportunidad de trasbajo para mostrar mis habilidades, si quieres conversar un poco, dejame un <a href="" target="_blank">mensaje!</a>',
+        '002': 'Actualmente estoy buscando una oportunidad de trasbajo para mostrar mis habilidades, si quieres conversar un poco, dejame un <a href="https://wa.me/56946215967" target="_blank">mensaje!</a>',
         '003': 'Puedes descargar <a a href="./CV/Miguel Alarcon CV - es.pdf" target="_blank" download="Miguel Alarcon CV - ES">mi CV desde aqui.</a>',
         '004': '01 <span class="decoration"></span> Acerca',
         '005': '02 <span class="decoration"></span> Proyectos',
@@ -37,7 +37,7 @@ export const langdata = {
     'en': {
       'strings': {
         '001': 'Hi, I think you already read my name. Im a Frontend Software Developer from Chile. I like to build clean and nice looking interfaces, challenging myself every time.',
-        '002': `Currently I'm looking for a job opportunity to showcase my skills, if you wanna have a chat, leave me a <a href="" target="_blank">message!</a>`,
+        '002': `Currently I'm looking for a job opportunity to showcase my skills, if you wanna have a chat, leave me a <a href="https://wa.me/56946215967" target="_blank">message!</a>`,
         '003': 'You can get <a a href="./CV/Miguel Alarcon CV - en.pdf" target="_blank" download="Miguel Alarcon CV - EN">my CV right here.</a>',
         '004': '01 <span class="decoration"></span> About',
         '005': '02 <span class="decoration"></span> Projects',
