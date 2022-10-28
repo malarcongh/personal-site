@@ -606,8 +606,8 @@ body{
     fill: #F7E018;
   }
   
-  .skill-npm svg:hover{
-    fill: #CC3534;
+  .skill-react svg:hover{
+    fill: #09D9FF;
   }
   
   .skill-git svg:hover{
