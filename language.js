@@ -3,7 +3,7 @@ export const langdata = {
     'es': {
       'strings': {
         '001': 'Hola, Creo que ya leiste mi nombre. Soy un Frontend Software Developer de Chile. Me gusta crear interfaces de usuario limpias y atractivas, tomando un desafio en cada oportunidad.',
-        '002': 'Actualmente estoy buscando una oportunidad de trasbajo para mostrar mis habilidades, si quieres conversar un poco, dejame un <a href="https://wa.me/56946215967" target="_blank">mensaje!</a>',
+        '002': 'Actualmente estoy buscando una oportunidad de trabajo para mostrar mis habilidades, si quieres conversar un poco, dejame un <a href="https://wa.me/56946215967" target="_blank">mensaje!</a>',
         '003': 'Puedes descargar <a a href="./CV/Miguel Alarcon CV - es.pdf" target="_blank" download="Miguel Alarcon CV - ES">mi CV desde aqui.</a>',
         '004': '01 <span class="decoration"></span> Acerca',
         '005': '02 <span class="decoration"></span> Proyectos',
